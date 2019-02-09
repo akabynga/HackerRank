@@ -4,7 +4,7 @@ public class InsertionSort {
 	public static void main(String... args) {
 		int[] arr = { 2, 1, 3, 1, 2 };
 		long swaps = sort(arr);
-
+		System.out.println("Swaps num: " + swaps);
 		for (int i = 0; i < arr.length; i++) {
 			System.out.println(arr[i]);
 
