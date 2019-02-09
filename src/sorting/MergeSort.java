@@ -1,4 +1,4 @@
-package com.algorithms.search;
+package sorting;
 
 public class MergeSort {
 
