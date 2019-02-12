@@ -1,8 +1,15 @@
-package com.main;
+package com.algorithms.implementation;
 
+/**
+ * https://www.hackerrank.com/challenges/kangaroo/problem
+ * 
+ * @author Dzmitry Shchepin
+ *
+ */
 public class Cengoroo {
-	public static void main(String... args) {
 
+	public static void main(String... args) {
+		System.out.println(kangaroo(0, 2, 5, 3));
 	}
 
 	static String kangaroo(int x1, int v1, int x2, int v2) {
